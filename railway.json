@@ -1,0 +1,9 @@
+{
+  "build": {
+    "builder": "NIXPACKS"
+  },
+  "deploy": {
+    "startCommand": "python LibraHell_AI_Server.py",
+    "restartPolicyType": "ON_FAILURE"
+  }
+}

@@ -1,1 +1,1 @@
-web: uvicorn server_full:app --host 0.0.0.0 --port $PORT
+web: python LibraHell_AI_Server.py
